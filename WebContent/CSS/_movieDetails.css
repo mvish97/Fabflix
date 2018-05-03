@@ -1,0 +1,177 @@
+/* NAV BAR */
+
+* {
+    font-family: 'Baloo Bhaijaan';
+    color: ghostwhite;
+}
+
+body{
+    background-color: slateblue;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3 {
+    color: slateblue;
+}
+
+nav, header, footer{
+    display: block;
+}
+
+nav{
+    margin: 0;
+    width: 100%;
+    box-shadow: 0px 1px 5px 5px rgba(0,0,0,0.15);
+}
+
+nav ul{
+    background-color: steelblue;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav li{
+    margin-left: 10px;
+    padding: 15px;
+    background: none;
+    list-style: none;
+    float: left;
+    font-size: 25px;
+}
+
+.topnav li.right-side.search_button{
+    display: inline-block;
+}
+
+.topnav .right-side.responsive{
+    display: none;
+}
+
+.topnav li.right-side{
+    margin-right: 10px;
+    float: right;
+}
+
+.topnav li.right-side a:hover{
+    color: gold;
+}
+
+.topnav img{
+    width: 21px;
+    height: 21px;
+    margin-right: 5px;
+}
+
+h2{
+    text-align: center;
+    font-size: 18px;
+    font-variant: small-caps;
+    letter-spacing: 1.3px;
+}
+
+/*BOX*/
+
+.box {
+    margin: 10px auto;
+    max-width: 600px;
+    background: gold;
+    padding: 10px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.box ul{
+    list-style: none;
+    margin: 2px auto;
+}
+
+.box li{
+    padding: 5px;
+    height: 50px;
+}
+
+.box li span.left{
+    color: darkslategrey;
+    float: left;
+    font-size: 17px;
+}
+
+.box input{
+    color: darkslategrey;
+    display: inline-block;
+    float: right;
+    width: 200px;
+    padding: 5px;
+    height: 25px;
+    border-radius: 4px;
+    border-style: none;
+    font-size: 15px;
+}
+
+.insert_btn {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.insert_btn button{
+    padding: 10px 20px;
+    color: white;
+    background: coral;
+    border-radius: 5px;
+    font-size: 20px;
+    border-style: none;
+}
+
+.insert_btn button:hover{
+    cursor: pointer;
+}
+
+/*Mobile*/
+
+@media screen and (max-width: 680px){
+    
+    .topnav li{
+        font-size: 20px;
+        padding-right: 5px;
+    }
+    
+    .topnav li.right-side.responsive{
+        display: inline-block;
+        float: right;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    
+    .topnav li.right-side.responsive a i:hover{
+        color: gold;
+    }
+    
+    .topnav li.right-side.search_button{
+        display: none;
+    }
+    
+    .box{
+        margin: 10px;
+        padding: 5px;
+        padding-left: 0px;
+    }
+    
+    .box ul{
+        padding: 10px;
+    }
+    
+    .box li{
+        font-size: 15px;
+    }
+    
+    .box input{
+        display: inline-block;
+        float: right;
+        width: 130px;
+    }
+}

@@ -1,0 +1,60 @@
+* {
+    background-color: darkslateblue;
+    font-family: 'Baloo Bhaijaan';
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    background: none;
+}
+
+div.headline {
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.headline h1{
+    font-size: 60px;
+    margin: 20px auto;
+}
+
+.headline h2{
+    margin-bottom: 100px;
+}
+
+.icon {
+    width: 45px;
+}
+
+form, form.list_movies h2, .button{
+   background: none; 
+}
+
+div.box{
+    background: gold;
+    display: block;
+    text-align: center;
+    max-width: 500px;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0px 3px 10px 5px rgba(0,0,0,0.15);
+    margin: 25px auto;
+}
+
+.button:hover, .button:hover{
+    background: coral;
+}
+
+
+.button{
+    display: block;
+    background: darkslateblue;
+    box-shadow: 0px 1px 1px 2px rgba(0,0,0,0.15);
+    font-size: 25px;
+    border-radius: 5px;
+    border-style: none;
+    margin: 20px auto;
+    padding: 10px 20px;
+    width: 250px;
+}

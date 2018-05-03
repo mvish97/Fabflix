@@ -1,0 +1,13 @@
+<Context path="/project2">
+
+	<Resource name="jdbc/moviedb" auth="Container" type="javax.sql.DataSource"
+		maxTotal="100" maxIdle="30" maxWaitMillis="10000" username="testuser"
+		password="cs122b" driverClassName="com.mysql.jdbc.Driver" readonly="true"
+		url="jdbc:mysql://localhost:3306/moviedb?autoReconnect=true&amp;useSSL=false&amp;cachePrepStmts=true" />
+
+	<Resource name="jdbc/moviedbMaster" auth="Container" type="javax.sql.DataSource"
+		maxTotal="100" maxIdle="30" maxWaitMillis="10000" username="testuser"
+		password="cs122b" driverClassName="com.mysql.jdbc.Driver" readonly="false"
+		url="jdbc:mysql://172.31.25.26:3306/moviedb?autoReconnect=true&amp;useSSL=false&amp;cachePrepStmts=true" />
+
+</Context>

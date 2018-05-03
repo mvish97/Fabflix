@@ -1,0 +1,13 @@
+Two optimization methods were used:
+- Indexes (in SQL)
+- Prepared Statements (inserting the DB)
+
+Initially before using these optimization methods the XML parsers ran for:
+Movie Parser: ~3:40 minutes
+Star Parser: ~1:30 minutes
+Cast Parser: ~4:30 minutes
+
+After optimization:
+Movie Parser: ~1:40 minutes
+Star Parser: ~45 Seconds
+Cast Parser: ~2:40 minutes

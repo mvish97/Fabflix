@@ -1,0 +1,110 @@
+* {
+    background-color: gold;
+    font-family: 'Baloo Bhaijaan';
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    background: none;
+}
+
+div.headline {
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.headline h1{
+    font-size: 80px;
+    margin: 20px auto;
+}
+
+.headline h2{
+    margin-bottom: 100px;
+}
+
+.icon {
+    width: 65px;
+}
+
+form, form.list_movies h2, .button{
+   background: none; 
+}
+
+div.box{
+    background-color: background: slateblue;
+    background: linear-gradient(to bottom left,deepskyblue, slateblue);
+    display: block;
+    text-align: center;
+    max-width: 500px;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0px 3px 10px 5px rgba(0,0,0,0.15);
+    margin: 25px auto;
+}
+
+.button:hover, .button:hover{
+    background: coral;
+}
+
+
+.button{
+    background: gold;
+    box-shadow: 0px 1px 1px 2px rgba(0,0,0,0.15);
+    font-size: 25px;
+    border-radius: 5px;
+    border-style: none;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.box .search_bar.autocomplete{
+    background-color: white;
+    height: 35px;
+    font-size: 17px;
+    border-radius: 5px;
+    border-style: solid;
+    margin: 10px;
+    padding: 7px;
+    color: black;
+    min-width: 300px;
+    border-width: 1.5px;
+    box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.15);
+    border-color: slateblue;
+}
+
+.autocomplete-suggestions {
+    border: 1px solid #999; 
+    background-color: white; 
+    overflow: auto; 
+}
+
+.autocomplete-suggestion { 
+    color: black; 
+    padding: 2px 5px; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    background-color: white;
+}
+
+.autocomplete-selected { 
+    background-color: rgba(106,90,205, 0.15);
+}
+
+.autocomplete-suggestions strong { 
+    font-weight: normal; 
+    color: #3399FF; 
+    background: None;
+}
+
+.autocomplete-group {
+    font-weight: bold; 
+    background-color: coral;
+    color: white;
+    padding: 5px 5px;
+}
+
+.autocomplete-group strong { 
+    display: block; 
+    border-bottom: 1px solid #000;
+}

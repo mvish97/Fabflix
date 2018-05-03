@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.4.7/jquery.autocomplete.min.js"></script>
+	
+	<link rel="stylesheet" href="./CSS/search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan" rel="stylesheet">
+	<title>Fabflix</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="title"><a href="main.html"><img src="images/cinema.png">Fabflix</a></li>
+            <li class="right-side"><a href="cart.html"><i style="font-size:24px" class="fa">&#xf07a;</i></a></li>
+            <li class="right-side"><a href="browse.html">Browse</a></li>
+        </ul>
+    </nav>
+    <h2> Type in the search field</h2>
+    <div class="search">
+        <form>
+            <input type="text" placeholder="Enter Movie Title" name="search" class="search_bar autocomplete" id="autocomplete">
+        </form>
+    </div>
+
+	<script src="./javascript/autocomplete.js"></script>
+</body>
+</html>

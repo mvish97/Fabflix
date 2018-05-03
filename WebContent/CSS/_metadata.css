@@ -1,0 +1,101 @@
+/* NAV BAR */
+
+* {
+    font-family: 'Baloo Bhaijaan';
+    color: ghostwhite;
+}
+
+body{
+    background-color: darkslateblue;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3 {
+    color: slateblue;
+}
+
+nav, header, footer{
+    display: block;
+}
+
+nav{
+    margin: 0;
+    width: 100%;
+    box-shadow: 0px 1px 5px 5px rgba(0,0,0,0.15);
+}
+
+nav ul{
+    background-color: steelblue;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav li{
+    margin-left: 10px;
+    padding: 15px;
+    background: none;
+    list-style: none;
+    float: left;
+    font-size: 25px;
+}
+
+.topnav li.right-side.search_button{
+    display: inline-block;
+}
+
+.topnav .right-side.responsive{
+    display: none;
+}
+
+.topnav li.right-side{
+    margin-right: 10px;
+    float: right;
+}
+
+.topnav li.right-side a:hover{
+    color: gold;
+}
+
+.topnav img{
+    width: 21px;
+    height: 21px;
+    margin-right: 5px;
+}
+
+/*Table Styles*/
+
+table{
+    width: 100%;
+    border: 2px solid gold;
+    border-radius: 2px;
+    border-bottom: none;
+}
+
+div.db_info{
+    margin: 20px;
+    padding: 20px;
+}
+
+td, th, li{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.left{
+    padding: 15px;
+    width: 33.33%;
+    border-right: 2px solid gold;
+    border-bottom: 2px solid gold;
+    border-radius: 2px;
+}
+
+.right{
+    padding: 15px;
+    width: 66.66%;
+    border-bottom: 2px solid gold;
+}

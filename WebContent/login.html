@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./CSS/login.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan" rel="stylesheet">
+	<title>Fabflix</title>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+	<h1> Welcome to FabFlix! </h1>
+	<img src="./images/cinema.png" class="icon">
+	<div class="box">
+        <form id="login_form" method="post">
+            <input type="text" placeholder="Email" class="field" id="email">
+            <input type="text" placeholder="Password" class="field" id="password">
+            <input type="submit" class="login_button" value="Login">
+            <div class="verify">
+            <div class="g-recaptcha" data-sitekey="6LdU10YUAAAAAMsNhl1LRFRamWkDyT4_uZ6GIYad"></div>
+            </div>
+        </form>
+	</div>
+    
+    <h2 id="error_message"></h2>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="./javascript/login.js"></script>
+</body>
+</html>

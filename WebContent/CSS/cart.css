@@ -1,0 +1,197 @@
+/* NAV BAR */
+
+* {
+    font-family: 'Baloo Bhaijaan';
+    color: white;
+    letter-spacing: 1.3px;
+}
+
+body{
+    background-color: dodgerblue;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav, header, footer{
+    display: block;
+}
+
+nav{
+    margin: 0;
+    width: 100%;
+    box-shadow: 0px 1px 5px 5px rgba(0,0,0,0.15);
+}
+
+nav ul{
+    background: slateblue;
+    background: linear-gradient(to bottom left, slateblue, dodgerblue);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav li{
+    margin-left: 10px;
+    padding: 15px;
+    background: none;
+    list-style: none;
+    float: left;
+    font-size: 25px;
+}
+
+.topnav li.right-side.search_button{
+    display: inline-block;
+}
+
+.topnav .right-side.responsive{
+    display: none;
+}
+
+.topnav li.right-side{
+    margin-right: 10px;
+    float: right;
+}
+
+.topnav li.right-side a:hover{
+    color: gold;
+}
+
+.topnav img{
+    width: 21px;
+    height: 21px;
+    margin-right: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+/* cart box */
+
+div.cart_box{
+    max-width: 700px;
+    background: gold;
+    margin: auto;
+    border-radius: 7px;
+    padding: 20px;
+    font-size: 17px;
+}
+
+div.cart_box ul{
+    list-style: none;
+    padding: 10px 10px;
+}
+
+div.cart_box ul li{
+    color: darkslategrey;
+    height: 50px;
+}
+
+div.cart_box ul li span{
+    color: darkslategrey;
+    text-overflow:ellipsis; 
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+div.cart_box ul hr{
+    border-color: rgba(0,0,0,0.25);
+    border-width: thin;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+
+div.cart_box ul li input{
+    border-style: none;
+    width: 50px;
+    color: black;
+    border-radius: 3px;
+    padding: 4px;
+    float: right;
+    margin: 0px 10px;
+}
+
+div.cart_box ul li button.remove{
+    border-style: none;
+    background: red;
+    color: white;
+    border-radius: 3px;
+    padding: 4px;
+    float: right;
+    width: 25px;
+}
+
+div.cart_box span.checkout_btn{
+    display: block;
+    text-align: center;
+    
+}
+
+div.cart_box span.checkout_btn button{
+    border-style: none;
+    background-color: limegreen;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 17px;
+}
+
+button.remove:hover{
+    cursor: pointer;
+}
+
+button.checkout:hover{
+    cursor: pointer;
+}
+
+button.add, button.sub{
+    border-style: none;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 3px;
+    width: 25px;
+    margin: 0px 10px;
+    margin-right: 20px;
+    float: right;
+    padding: 4px;
+}
+
+
+@media screen and (max-width: 680px){
+    
+    .topnav li{
+        font-size: 20px;
+        padding-right: 5px;
+    }
+    
+    .topnav li.right-side.responsive{
+        display: inline-block;
+        float: right;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    
+    .topnav li.right-side.responsive a i:hover{
+        color: gold;
+    }
+    
+    .topnav li.right-side.search_button{
+        display: none;
+    }
+    
+    div.cart_box ul li span{
+        color: darkslategrey;
+        width: 130px;
+    }
+    
+    div.cart_box ul li input{
+        width: 30px;
+    }
+
+}

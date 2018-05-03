@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./CSS/movieList.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan" rel="stylesheet">
+	<title>Fabflix</title>
+</head>
+<body>
+    <nav>
+        <ul class="topnav">
+            <li class="title"><a href="main.html"><img src="images/cinema.png">Fabflix</a></li>
+            <li class="right-side"><a href="cart.html"><i style="font-size:24px" class="fa">&#xf07a;</i></a></li>
+            <li class="right-side search_button"><a href="search.html">Search Movies</a></li>
+            <li class="right-side responsive search"><a href="search.html"><i class="fa fa-search"></i></a></li>
+            <li class="right-side"><a href="browse.html">Browse</a></li>
+            
+        </ul>
+    </nav>
+    
+    <div class="btns letters">
+        <ul id="letter_list"></ul>
+    </div>
+    
+    <ul id="sorting" class="sortby">
+        Sort by:
+        <li class="sortOption" id="asc_title">A-Z</li>
+        <li class="sortOption" id="dsc_title">Z-A</li>
+        <li class="sortOption" id="asc_year">Newest-Oldest Year</li>
+        <li class="sortOption" id="dsc_year">Oldest-Newest Year</li>
+    </ul>
+    
+    <div id="movie_list"> 
+<!--
+        <div class="movie_box">
+            <ul class="row-1">
+                <li>Title (year)</li>
+                <li>Genres</li>
+            </ul>
+            <ul class="row-2">
+                <li> Director </li>
+                <li> List of Actors </li>
+            </ul>
+            <ul class="row-3">
+                <li> Ratings: 9 </li>
+            </ul>
+        </div>
+-->
+    </div>
+    
+    <div class="bottom" id="next_prev">
+        <h3 id="page_info"></h3>
+        <button class='prev'> Prev </button>
+        <button class='next'> Next </button>
+    </div>
+    
+    
+    <ul class="resultsperpage">
+        Results per page : 
+        <li class="results" id="10">10</li>
+        <li class="results" id="20">20</li>
+        <li class="results" id="50">50</li>
+        <li class="results" id="100">100</li>
+    </ul>
+    
+    <h1 id="not_found_message"> Sorry, couldn't find any movies.</h1>
+    
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="./javascript/movieList.js"></script>
+    
+</body>
+</html>

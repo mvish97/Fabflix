@@ -1,0 +1,139 @@
+* {
+    font-family: 'Baloo Bhaijaan';
+    color: white;
+    background: none;
+}
+
+body{
+    background-color: gold;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+    margin: 50px;
+    letter-spacing: 2px;
+}
+
+nav, header, footer{
+    display: block;
+}
+
+nav{
+    margin: 0;
+    width: 100%;
+    box-shadow: 0px 1px 5px 5px rgba(0,0,0,0.15);
+}
+
+nav ul{
+    background: slateblue;
+    background: linear-gradient(to bottom left,deepskyblue, slateblue);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav li{
+    margin-left: 10px;
+    padding: 15px;
+    list-style: none;
+    float: left;
+    font-size: 25px;
+}
+
+li.right-side{
+    margin-right: 10px;
+    float: right;
+    
+}
+
+li.right-side a:hover{
+    color: coral;
+}
+
+div.btns{
+    margin: 40px 40px;
+    background: slateblue;
+    background: linear-gradient(to bottom left,deepskyblue, slateblue);
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0px 1px 1px 2px rgba(0,0,0,0.15);
+}
+
+.btns h2{
+    margin: 10px 10px;
+    text-align: left;
+}
+
+.btns ul{
+    overflow: hidden;
+}
+
+.btns li{
+    color: darkslategrey;
+    display: inline-block;
+    padding: 7px;
+    background-color: gold;
+    list-style: none;
+    font-size: 17px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.btns li:hover{
+    background: coral;
+    cursor: pointer;
+}
+
+.btns.letters li{
+    text-align: center;
+    color: white;
+    background: none;
+    display: inline-block;
+    padding: 7px;
+    list-style: none;
+    font-size: 20px;
+    margin: 10px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.btns.letters li:hover{
+    background: gold;
+    cursor: pointer;
+}
+
+img{
+    width: 21px;
+    height: 21px;
+    margin-right: 5px;
+}
+
+
+@media screen and (max-width: 640px){
+    .genres h2{
+        font-size: 17px;
+        letter-spacing: 1.5px; 
+    }
+    
+    .genres li{
+        font-size: 15px;
+        padding: 5px;
+    }
+    
+    .topnav li.right-side.responsive a i:hover{
+        color: gold;
+    }
+    
+    .topnav li.right-side.responsive{
+        display: inline-block;
+        float: right;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+}
+

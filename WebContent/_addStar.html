@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./CSS/_addStar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan" rel="stylesheet">
+	<title>Fabflix</title>
+</head>
+<body>
+    <nav>
+        <ul class="topnav">
+            <li class="title"><a href="main.html"><img src="images/cinema.png">Fabflix</a></li>
+            <li class="right-side"><a href="_dashboard.html">Dashboard</a></li>
+        </ul>
+    </nav>
+    
+    <h2>
+        Enter Star Details
+    </h2>
+    
+    <div class='box'>
+        <ul>
+            <li id='name'><span class="left">Name</span><input placeholder="Enter Full Name"></li>
+            <li id='dob'><span class="left">Birth Year</span><input type="number" placeholder="Enter Year"></li>
+        </ul>
+    </div>
+    
+    <div class="insert_btn">
+        <button onclick="processInsertion()"> Insert </button>
+    </div>
+    
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="./javascript/_addStar.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,124 @@
+/* NAV BAR */
+
+* {
+    font-family: 'Baloo Bhaijaan';
+    color: white;
+    letter-spacing: 1.3px;
+}
+
+body{
+    background-color: dodgerblue;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav, header, footer{
+    display: block;
+}
+
+nav{
+    margin: 0;
+    width: 100%;
+    box-shadow: 0px 1px 5px 5px rgba(0,0,0,0.15);
+}
+
+nav ul{
+    background: slateblue;
+    background: linear-gradient(to bottom left, slateblue, dodgerblue);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav li{
+    margin-left: 10px;
+    padding: 15px;
+    background: none;
+    list-style: none;
+    float: left;
+    font-size: 25px;
+}
+
+.topnav li.right-side.search_button{
+    display: inline-block;
+}
+
+.topnav .right-side.responsive{
+    display: none;
+}
+
+.topnav li.right-side{
+    margin-right: 10px;
+    float: right;
+}
+
+.topnav li.right-side a:hover{
+    color: gold;
+}
+
+.topnav img{
+    width: 21px;
+    height: 21px;
+    margin-right: 5px;
+}
+
+/* Div info */
+div.info{
+    margin: 50px;
+    padding: 30px 40px;
+}
+
+div.info h2, div.info a, div.info h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+div.info h1{
+    font-size: 80px;
+    margin: 0px;
+}
+
+div.info ul{
+    list-style-type: square;
+}
+
+div.info h2{
+    margin: 10px 0px;
+}
+
+div.info hr{
+    border-color: gold;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+div.info a:hover{
+    color: gold;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 680px){
+    
+    .topnav li{
+        font-size: 20px;
+        padding-right: 5px;
+    }
+    
+    .topnav li.right-side.responsive{
+        display: inline-block;
+        float: right;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    
+    .topnav li.right-side.responsive a i:hover{
+        color: gold;
+    }
+    
+    .topnav li.right-side.search_button{
+        display: none;
+    }
+}
